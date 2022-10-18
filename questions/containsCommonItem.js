@@ -10,12 +10,12 @@ should return false.
 
 // watch for BigO_Cheatsheet_Zero_To_Mastery_V1.01.pdf for the steps
 
-//  HashMap solution  T(n) = O(a+b)
+//  HashMap solution  T(n) = O(a+b)   S(n) = O(a)
 const array1 = ['a', 'b', 'c', 'x'];
 const array2 = ['z', 'x', 'i'];
 
 const containsItem = (arr1, arr2) => {
-    let newMap = new Map();             // this is the new method
+    // let newMap = new Map();             // this is the new method
     let map = {};
     for (let i = 0; i < arr1.length; i++) {
         if (!map[arr1[i]]) {
