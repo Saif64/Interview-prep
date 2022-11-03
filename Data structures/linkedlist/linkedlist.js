@@ -132,7 +132,8 @@ class LinkedList {
      * @returns The printList() method is being returned.
      */
     remove(index) {
-        const leader = this.treverseToIndex(index - 1);
+        const leader = this.treverseToIndex(index - 1); // grabs the prev node of the index given
+        // console.log(leader);
         const unWantedNode = leader.next;
         leader.next = unWantedNode.next;
         this.length--;
