@@ -85,7 +85,7 @@ class LinkedList {
     }
 
     /**
-     * We create a new node, then we find the leader node, then we make the leader node point to the
+     * We create a new node, then we find the prevNode node, then we make the prevNode node point to the
      * new node, then we make the new node point to the follower node, then we increment the length of
      * the list, then we return the list.
      * @param index - the index where you want to insert the value
@@ -107,9 +107,9 @@ class LinkedList {
             value: value,
             next: null
         };
-        const leader = this.treverseToIndex(index - 1);
-        const holdingPointer = leader.next;
-        leader.next = newNode;
+        const prevNode = this.treverseToIndex(index - 1);
+        const holdingPointer = prevNode.next;
+        prevNode.next = newNode;
         newNode.next = holdingPointer;
         this.length++;
         return this.printList();
@@ -132,10 +132,10 @@ class LinkedList {
      * @returns The printList() method is being returned.
      */
     remove(index) {
-        const leader = this.treverseToIndex(index - 1); // grabs the prev node of the index given
-        // console.log(leader);
-        const unWantedNode = leader.next;
-        leader.next = unWantedNode.next;
+        const prevNode = this.treverseToIndex(index - 1); // grabs the prev node of the index given
+        // console.log(prevNode);
+        const unWantedNode = prevNode.next;
+        prevNode.next = unWantedNode.next;
         this.length--;
         return this.printList();
     }
