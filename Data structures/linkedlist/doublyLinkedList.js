@@ -1,20 +1,5 @@
 // https://visualgo.net/en/list?slide=1-1
 
-/* 10 <<--> 5 <<--> 16 <--> null  this is how it should look like
-let doublyLinkedList = {
-    head: {
-        value: 10,
-        next: {
-            value: 5,
-            next: {
-                value: 16,
-                next: null
-            }
-        }
-    }
-};
-*/
-
 // implement by class
 /* class Node {
     constructor (value) {
