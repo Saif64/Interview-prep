@@ -139,6 +139,25 @@ class LinkedList {
         this.length--;
         return this.printList();
     }
+
+    reverse() {
+        if (!this.head) return this.head;
+
+        let first = this.head;
+        this.tail = this.head;
+        let second = first.next;
+
+        while (second) {
+            const tempNode = second.next;
+            second.next = first;
+            first = second;
+            second = tempNode;
+        }
+
+        this.head.next = null;
+        this.head = first;
+        return this.printList();
+    }
 }
 
 
@@ -155,7 +174,9 @@ myLinkedList.prepend(1);  // 1 --> 10 -- > 5 -- > 16;
 */
 myLinkedList.insert(2, 99);  // 1 --> 10 --> 99 --> 5 --> 16
 myLinkedList.insert(10, 101);  // 1 --> 10 --> 99 --> 5 --> 16 --> 101
-myLinkedList.remove(2);  // 1 --> 10 --> 5 --> 16 --> 101
+// myLinkedList.remove(2);  // 1 --> 10 --> 5 --> 16 --> 101
+
+myLinkedList.reverse();
 
 console.log(myLinkedList.printList());
 
