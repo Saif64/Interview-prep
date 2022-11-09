@@ -35,8 +35,11 @@ myStack.push(1);
 
 console.log(myStack);
 
-/*  LIFO
+/*  LIFO- Last In First Out
+
+        1
         7
         4
         5
+        
 */
