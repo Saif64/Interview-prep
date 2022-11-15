@@ -1,0 +1,16 @@
+       PROS     |       CONS
+----------------|-------------------
+       DRY      |
+  More Readable |       Large Stack
+                |
+                |
+                |
+
+
+Every time you are using a tree or converting Something into a tree
+consider using recursion
+              1. Divided into a number of subproblems that are smaller instances of the same problem
+              2. Each instances of the subproblem is identical in nature
+              3. The solutions of each subproblem can be combined to solve problem at hand
+
+Divide And Conqure recursion
