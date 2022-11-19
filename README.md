@@ -36,7 +36,7 @@ $ If you don't understand please knock me so that I can make it clear to you
     * [Divide & Conquer](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting/comparison%20sort/Divide%26Conquer)
   * [Searching](https://github.com/Saif64/Interview-prep/tree/master/algorithms/searching)
     * [Graph-Theory](https://github.com/Saif64/Interview-prep/tree/master/algorithms/searching/graph-theory)
-    * [Linear & Binary Search](https://github.com/Saif64/Interview-prep/tree/master/algorithms/searching/graph-theory)
+    * [Linear & Binary Search](https://github.com/Saif64/Interview-prep/tree/master/algorithms/searching)
   * More to Come
 * [Questions and Solutions demo](https://github.com/Saif64/Interview-prep/tree/master/questions)
   * [Leetcode Solutions](https://github.com/Saif64/Interview-prep/tree/master/questions/leetcode)
