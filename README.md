@@ -12,12 +12,12 @@ A collection of all the necessary questions and DSA (libraries, services, editor
 
 ```bash
 $ Download the file
-$ # install dependencies
+$ install dependencies
 $ npm install
-$ # or if you only want to mention production dependencies
-$ # Read the files
-$ # Go through the codes and understand.
-$ # If you don't understand please knock me so that I can make it clear to you
+$ or if you only want to mention production dependencies
+$ Read the files
+$ Go through the codes and understand.
+$ If you don't understand please knock me so that I can make it clear to you
 ```
 
 ## Table of Contents
