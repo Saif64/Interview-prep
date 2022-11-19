@@ -1,13 +1,23 @@
-# Are you taking preparation for interview? 
+# Are you taking preparation for interview? <br> OR thinking of learning Data Structures and Algorithms?
 
 A collection of all the necessary questions and DSA (libraries, services, editors, tools, cheatsheets, etc.)
 :blush: Here you can get all the codes built from scratch and leetcode solutions that I have done in Javascript
  
  ---
  
-### Knock me on Facebook [@Muntasir Mahmud Saif](https://www.facebook.com/muntasir.m.saif) if you hvae any query. :blush: 
-### And if you like the repository give it a :star: 
+### Knock me on Facebook [@Muntasir Mahmud Saif](https://www.facebook.com/muntasir.m.saif) if you hvae any query. :blush: <br> And if you like the repository give it a :star: 
 
+## Usage
+
+```bash
+$ Download the file
+$ install dependencies
+$ npm install
+$ or if you only want to mention production dependencies
+$ Read the files
+$ Go through the codes and understand.
+$ If you don't understand please knock me so that I can make it clear to you
+```
 
 ## Table of Contents
 
