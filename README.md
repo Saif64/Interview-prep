@@ -5,8 +5,7 @@ A collection of all the necessary questions and DSA (libraries, services, editor
  
  ---
  
-### Knock me on Facebook [@Muntasir Mahmud Saif](https://www.facebook.com/muntasir.m.saif) if you hvae any query. :blush: <br>
-And if you like the repository give it a :star: 
+### Knock me on Facebook [@Muntasir Mahmud Saif](https://www.facebook.com/muntasir.m.saif) if you hvae any query. :blush: <br> And if you like the repository give it a :star: 
 
 ## Usage
 
