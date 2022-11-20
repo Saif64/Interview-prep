@@ -8,6 +8,8 @@ many places and pushed into a single repository so that everyone can get what th
  
 ### Knock me on Facebook [@Muntasir Mahmud Saif](https://www.facebook.com/muntasir.m.saif) if you hvae any query. :blush: <br> And if you like the repository give it a :star: 
 
+---
+
 ## What You can Do to contribute
 
 ```bash
