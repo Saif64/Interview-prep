@@ -1,0 +1,4 @@
+DYnamic Programming is mainly an optimization of Programming
+
+It is very difficult to understand and very vast topic.. follow the freeCodeCamp
+video to learn and understand better https://www.youtube.com/watch?v=oBt53YbR9Kk&list=PL3dw3cTyGuIMtUdjhm4wwa9mQvduj_rSw&index=4
