@@ -84,7 +84,13 @@ depthFirstValues(a);
  -> ['a', 'b', 'c', 'd', 'e']
 */
 
-
+class Node {
+   constructor (val) {
+      this.val = (val === undefined ? 0 : val);
+      this.left = (left === undefined ? null : left);
+      this.right = (right === undefined ? null : right);
+   }
+}
 
 // iterative way
 /*
