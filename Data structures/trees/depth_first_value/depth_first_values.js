@@ -92,8 +92,8 @@ class Node {
    }
 }
 
-// iterative way
-/*
+/*! iterative way 
+
 n = number of nodes;
 Time: O(n);
 Space: O(n)
@@ -120,11 +120,11 @@ const depthFirstValuesI = (root) => {
 };
 
 
-// Recursive way
-/*
-n = number of nodes;
-Time: O(n);
-Space: O(n)
+/*! Recursive way 
+
+* n = number of nodes;
+* Time: O(n); 
+* Space: O(n)
 */
 const depthFirstValues = (root) => {
    if (root === null)
