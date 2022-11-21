@@ -105,7 +105,7 @@ const depthFirstValuesI = (root) => {
    const values = [];
    const stack = [root];
 
-   while (stack.length > 0) {
+   while (stack.length > 0) {   // while stack is Empty
       const node = stack.pop();
       values.push(node.val);
 
