@@ -29,6 +29,8 @@ d   e     f
 depthFirstValues(a); 
    -> ['a', 'b', 'd', 'e', 'c', 'f']
 
+*******TEST CASE **********
+
 const a = new Node('a');
 const b = new Node('b');
 const c = new Node('c');
@@ -55,7 +57,8 @@ d   e     f
 depthFirstValues(a); 
    -> ['a', 'b', 'd', 'e', 'g', 'c', 'f']
 
-
+*******TEST CASE **********
+   
 const a = new Node('a');
 const b = new Node('b');
 const c = new Node('c');
@@ -81,11 +84,47 @@ depthFirstValues(a);
  -> ['a', 'b', 'c', 'd', 'e']
 */
 
-const depthFirstValues = (root) => {
-    if (root === null)
-        return [];
 
-    const leftValues = depthFirstValues(root.left);
-    const rightValues = depthFirstValues(root.right);
-    return [root.val, ...leftValues, ...rightValues];
+
+// iterative way
+/*
+n = number of nodes;
+Time: O(n);
+Space: O(n)
+*/
+const depthFirstValuesI = (root) => {
+   if (root === null)
+      return [];
+
+   const values = [];
+   const stack = [root];
+
+   while (stack.length > 0) {
+      const node = stack.pop();
+      values.push(node.val);
+
+      if (node.right !== null)
+         stack.push(node.right);
+
+      if (node.left !== null)
+         stack.push(node.left);
+   }
+
+   return values;
+};
+
+
+// Recursive way
+/*
+n = number of nodes;
+Time: O(n);
+Space: O(n)
+*/
+const depthFirstValues = (root) => {
+   if (root === null)
+      return [];
+
+   const leftValues = depthFirstValues(root.left);
+   const rightValues = depthFirstValues(root.right);
+   return [root.val, ...leftValues, ...rightValues];
 };
