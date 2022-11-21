@@ -119,20 +119,19 @@ Space: O(n)
 *JavaScript does not have a native queue data structure that is maximally efficient.
 */
 const breadthFirstValues = (root) => {
-    if (root === null) return [];
+   if (root === null) return [];
 
-    const values = [];
-    const queue = [root];
+   const values = [];
+   const queue = [root];
 
-    while (queue.length > 0) {
-        const currentNode = queue.shift();
-        values.push(currentNode.val);
+   while (queue.length > 0) {
+      const currentNode = queue.shift();
+      values.push(currentNode.val);
 
-        if (currentNode.left !== null) queue.push(currentNode.left);
+      if (currentNode.left !== null) queue.push(currentNode.left);
 
-        if (currentNode.right !== null) queue.push(currentNode.right);
-    }
-
-    return values;
+      if (currentNode.right !== null) queue.push(currentNode.right);
+   }
+   return values;
 };
 
