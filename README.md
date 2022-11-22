@@ -50,7 +50,8 @@ $ If you don't understand please knock me so that I can make it clear to you
   * Adding more and more
 * [Cheatsheets](https://github.com/Saif64/Interview-prep)
 
-## The one & only Youtube Playlist of algorithm
+## The best Youtube Playlists of algorithm
 
 * [Abdul Bari](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
 * [CodeEvolution](https://www.youtube.com/playlist?list=PLC3y8-rFHvwiRYB4-HHKHblh3_bQNJTMa)
+* [FreeCodeCamp Personally set](https://youtube.com/playlist?list=PL3dw3cTyGuIMtUdjhm4wwa9mQvduj_rSw)
