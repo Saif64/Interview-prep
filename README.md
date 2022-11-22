@@ -37,6 +37,7 @@ $ If you don't understand please knock me so that I can make it clear to you
     * [sum of tree of K](https://github.com/Saif64/Interview-prep/blob/master/Data%20structures/trees/tree_sum/tree_sum.js)
     * [minimum value of tree](https://github.com/Saif64/Interview-prep/blob/master/Data%20structures/trees/tree_min_value/tree_min_value.js)
     * [max root to leaf path sum](https://github.com/Saif64/Interview-prep/blob/master/Data%20structures/trees/max_root_to_leaf_path_sum/max_root.js)
+    * [inverse/mirror a binary tree Leetcode 226](https://github.com/Saif64/Interview-prep/blob/master/Data%20structures/trees/invert_binary_tree/invert_binary_tree.js)
 * [Algorithms](https://github.com/Saif64/Interview-prep/tree/master/algorithms)
   * [Recursion](https://github.com/Saif64/Interview-prep/tree/master/algorithms/recursion)
     * [fibonacci]()
