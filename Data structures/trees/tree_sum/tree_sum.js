@@ -69,7 +69,7 @@ treeSum(null); // -> 0
 const treeSumD = (root) => {
     if (root === null) return 0;
 
-    return root.val + treeSum(root.left) + treeSum(root.right);
+    return root.val + treeSumD(root.left) + treeSumD(root.right);
 };
 
 
