@@ -171,5 +171,5 @@ const treeIncludesB = (root, target) => {    // remove B before running
 const treeIncludesD = (root, target) => {       // remove D before running
     if (root === null) return false;
     if (root.val === target) return true;
-    return treeIncludes(root.left, target) || treeIncludes(root.right, target);
+    return treeIncludesD(root.left, target) || treeIncludesD(root.right, target);
 };
