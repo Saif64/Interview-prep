@@ -33,6 +33,7 @@ $ If you don't understand please knock me so that I can make it clear to you
   * [Trees](https://github.com/Saif64/Interview-prep/tree/master/Data%20structures/trees)
     * [depth_first_value](https://github.com/Saif64/Interview-prep/tree/master/Data%20structures/trees/depth_first_value)
     * [breadth First Values](https://github.com/Saif64/Interview-prep/tree/master/Data%20structures/trees/breadth_first_values)
+    * [search for a value in a tree]()
 * [Algorithms](https://github.com/Saif64/Interview-prep/tree/master/algorithms)
   * [Recursion](https://github.com/Saif64/Interview-prep/tree/master/algorithms/recursion)
   * [Sorting](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting)
