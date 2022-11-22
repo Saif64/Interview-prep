@@ -1,0 +1,1 @@
+- [@Pirate King](https://www.piratekingdom.com/leetcode/cheat-sheet)
