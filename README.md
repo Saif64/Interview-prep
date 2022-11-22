@@ -39,6 +39,8 @@ $ If you don't understand please knock me so that I can make it clear to you
     * [max root to leaf path sum](https://github.com/Saif64/Interview-prep/blob/master/Data%20structures/trees/max_root_to_leaf_path_sum/max_root.js)
 * [Algorithms](https://github.com/Saif64/Interview-prep/tree/master/algorithms)
   * [Recursion](https://github.com/Saif64/Interview-prep/tree/master/algorithms/recursion)
+    * [fibonacci]()
+    * [factorial]()
   * [Sorting](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting)
     * [Comparison Sort](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting/comparison%20sort)
     * [Divide & Conquer](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting/comparison%20sort/Divide%26Conquer)
