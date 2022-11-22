@@ -35,6 +35,8 @@ $ If you don't understand please knock me so that I can make it clear to you
     * [breadth First treversal](https://github.com/Saif64/Interview-prep/tree/master/Data%20structures/trees/breadth_first_values)
     * [search for a value in a tree](https://github.com/Saif64/Interview-prep/tree/master/Data%20structures/trees/tree_target_search)
     * [sum of tree of K](https://github.com/Saif64/Interview-prep/blob/master/Data%20structures/trees/tree_sum/tree_sum.js)
+    * [minimum value of tree](https://github.com/Saif64/Interview-prep/blob/master/Data%20structures/trees/tree_min_value/tree_min_value.js)
+    * [max root to leaf path sum](https://github.com/Saif64/Interview-prep/blob/master/Data%20structures/trees/max_root_to_leaf_path_sum/max_root.js)
 * [Algorithms](https://github.com/Saif64/Interview-prep/tree/master/algorithms)
   * [Recursion](https://github.com/Saif64/Interview-prep/tree/master/algorithms/recursion)
   * [Sorting](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting)
