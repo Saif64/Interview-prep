@@ -2,12 +2,12 @@
 
 
 let t0 = performance.now();
-function findFactorialRecursively(num) {
+function findFactorialRecursively(n) {
 
-    if (num === 2) {
+    if (n === 2) {
         return 2;
     }
-    return num * findFactorialRecursively(num - 1);
+    return n * findFactorialRecursively(n - 1);
 }
 let t1 = performance.now();
 // console.log(t1 - t0);
