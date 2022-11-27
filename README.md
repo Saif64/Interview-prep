@@ -47,6 +47,8 @@ $ If you don't understand please knock me so that I can make it clear to you
     * [isPalindrome](https://github.com/Saif64/Interview-prep/blob/master/algorithms/recursion/reverseStrWithRecursion/isPalindrome.js)
     * [decimal to binary](https://github.com/Saif64/Interview-prep/blob/master/algorithms/recursion/decimalToBinary/decimal_to_binary.js)
     * [sum of natural number or consecutive number](https://github.com/Saif64/Interview-prep/blob/master/algorithms/recursion/sum_of_consecutive_number/sum_of_consecutive_number.js)
+    * [binary Search using Recursion]()
+    * [merge Search using Recursion]()
   * [Sorting](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting)
     * [Comparison Sort](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting/comparison%20sort)
     * [Divide & Conquer](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting/comparison%20sort/Divide%26Conquer)
