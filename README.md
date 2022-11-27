@@ -44,12 +44,8 @@ $ If you don't understand please knock me so that I can make it clear to you
     * [factorial](https://github.com/Saif64/Interview-prep/tree/master/algorithms/recursion/factorial)
     * [sum using recursion](https://github.com/Saif64/Interview-prep/blob/master/algorithms/recursion/sum_using_recursion/sum.js)
     * [reverse String With Recursion](https://github.com/Saif64/Interview-prep/blob/master/algorithms/recursion/reverseStrWithRecursion/reverseStrWithRecursion.js)
-<<<<<<< HEAD
     * [isPalindrome](https://github.com/Saif64/Interview-prep/blob/master/algorithms/recursion/reverseStrWithRecursion/isPalindrome.js)
-    * [decimal to binary]()
-=======
-    * [isPalindrome](https://github.com/Saif64/Interview-prep/blob/master/algorithms/recursion/isPalindrome/isPalindrome.js)
->>>>>>> 86261a910f65e30d33034185fab98b9c2f6aecbf
+    * [decimal to binary](https://github.com/Saif64/Interview-prep/blob/master/algorithms/recursion/decimalToBinary/decimal_to_binary.js)
   * [Sorting](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting)
     * [Comparison Sort](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting/comparison%20sort)
     * [Divide & Conquer](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting/comparison%20sort/Divide%26Conquer)
