@@ -50,7 +50,7 @@ $ If you don't understand please knock me so that I can make it clear to you
     * [Graph-Theory](https://github.com/Saif64/Interview-prep/tree/master/algorithms/searching/graph-theory)
       * [BFS](https://github.com/Saif64/Interview-prep/tree/master/algorithms/searching/graph-theory/BFS)
       * [DFS](https://github.com/Saif64/Interview-prep/tree/master/algorithms/searching/graph-theory/DFS)
-      * [Problem: hasPath]()
+      * [Problem: hasPath](https://github.com/Saif64/Interview-prep/blob/master/algorithms/searching/graph-theory/hasPath/hasPath.js)
     * [Linear & Binary Search](https://github.com/Saif64/Interview-prep/tree/master/algorithms/searching)
   * [Dynamic Programming](https://github.com/Saif64/Interview-prep/tree/master/algorithms/dynamic_programming)
 * [Questions and Solutions demo](https://github.com/Saif64/Interview-prep/tree/master/questions)
