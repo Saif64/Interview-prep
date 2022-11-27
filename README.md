@@ -42,7 +42,7 @@ $ If you don't understand please knock me so that I can make it clear to you
   * [Recursion](https://github.com/Saif64/Interview-prep/tree/master/algorithms/recursion)
     * [fibonacci](https://github.com/Saif64/Interview-prep/tree/master/algorithms/recursion/fibonacci)
     * [factorial](https://github.com/Saif64/Interview-prep/tree/master/algorithms/recursion/factorial)
-    * [sum using recursion]()
+    * [sum using recursion](https://github.com/Saif64/Interview-prep/blob/master/algorithms/recursion/sum_using_recursion/sum.js)
   * [Sorting](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting)
     * [Comparison Sort](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting/comparison%20sort)
     * [Divide & Conquer](https://github.com/Saif64/Interview-prep/tree/master/algorithms/sorting/comparison%20sort/Divide%26Conquer)
