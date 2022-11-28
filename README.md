@@ -1,4 +1,4 @@
-# Interview-Prep 📘📖🥇💯
+# Interview-Prep 📘📖⏲️💯
 
 A collection of all the necessary questions and DSA (libraries, services, editors, tools, cheatsheets, etc.)
 :blush: Here you can get all the codes built from scratch and leetcode solutions that I have done in Javascript. Resources are gathered from 
