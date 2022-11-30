@@ -27,7 +27,7 @@ $ If you don't understand please knock me so that I can make it clear to you
 ### Data Structures
 | Data Structures | Properties |
 |:-----------------:|:-----------:|
-| [Array](https://github.com/Saif64/Interview-prep/tree/master/Data%20structures/array)| [return_largest_numberArray]() <br> |
+| [Array](https://github.com/Saif64/Interview-prep/tree/master/Data%20structures/array)| [return_largest_numberArray](https://github.com/Saif64/Interview-prep/blob/master/Data%20structures/array/problems/return_largest_numberArray.js) <br> |
   | [Graphs](https://github.com/Saif64/Interview-prep/tree/master/Data%20structures/graphs) | 🙂 |
  |  [Linked List](https://github.com/Saif64/Interview-prep/tree/master/Data%20structures/linkedlist) | [SIngly Linked List](https://github.com/Saif64/Interview-prep/blob/master/Data%20structures/linkedlist/linkedlist.js) <br> [doubly Linked List](https://github.com/Saif64/Interview-prep/blob/master/Data%20structures/linkedlist/doublyLinkedList.js) |
   | [Stacks](https://github.com/Saif64/Interview-prep/tree/master/Data%20structures/stacks) | 🙂 |
