@@ -12,6 +12,7 @@ largestComponent({
   3: ['2', '4'],
   4: ['3', '2']
 }); // -> 4
+
 test_01:
 largestComponent({
   1: ['2'],
@@ -21,6 +22,7 @@ largestComponent({
   7: ['6', '8'],
   8: ['9', '7', '2']
 }); // -> 6
+
 test_02:
 largestComponent({
   3: [],
@@ -32,6 +34,7 @@ largestComponent({
   1: ['2'],
   2: ['1']
 }); // -> 5
+
 test_03:
 largestComponent({}); // -> 0
 test_04:
