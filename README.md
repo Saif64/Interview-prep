@@ -54,5 +54,5 @@ $ If you don't understand please knock me so that I can make it clear to you
 ## The best Youtube Playlists of algorithm
 
 * [Abdul Bari](https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O)
-* [CodeEvolution](https://www.youtube.com/playlist?list=PLC3y8-rFHvwiRYB4-HHKHblh3_bQNJTMa)
-* [FreeCodeCamp Personally set](https://youtube.com/playlist?list=PL3dw3cTyGuIMtUdjhm4wwa9mQvduj_rSw)
+* [Dinesh Varyani](https://youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d)
+* [Personal playlist of mine](https://youtube.com/playlist?list=PL3dw3cTyGuIMtUdjhm4wwa9mQvduj_rSw)
