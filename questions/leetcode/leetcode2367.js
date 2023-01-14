@@ -41,9 +41,23 @@ var arithmeticTripletsOptimized2 = function (nums, diff) {
     return count;
 };
 
+// Set solution
+const arithmeticTripletsSet = (nums, diff) => {
+    let count = 0;
+    const set = new Set(nums);
+
+    for (let i = nums.length - 1; i > 0; i--) {
+        if (set.has(nums[i] - diff) && set.has(nums[i] - diff * 2)) {
+            count++;
+        }
+    }
+    return count;
+
+};
+
 const nums = [4, 5, 6, 7, 8, 9], diff = 2;
 
-console.log(arithmeticTripletsOptimized2(nums, diff));
+console.log(arithmeticTripletsSet(nums, diff));
 
 
 
