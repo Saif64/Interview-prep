@@ -32,8 +32,9 @@ $ If you don't understand please knock me so that I can make it clear to you
 
 ## Table of Contents
 
-- [Big-O Notaion](https://github.com/Saif64/Interview-prep/tree/master/Big-O)
-- [Cheatsheets and useful stuffs](https://github.com/Saif64/Interview-prep/tree/master/cheatsheets%20and%20more)
+### [Big-O Notaion](https://github.com/Saif64/Interview-prep/tree/master/Big-O)
+
+### [Cheatsheets and useful stuffs](https://github.com/Saif64/Interview-prep/tree/master/cheatsheets%20and%20more)
 
 ### Data Structures
 
