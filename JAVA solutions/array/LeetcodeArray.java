@@ -209,4 +209,24 @@ public class LeetcodeArray {
         }
         return image;
     }
+
+
+    //https://leetcode.com/problems/matrix-diagonal-sum/description/
+    public int diagonalSum(int[][] mat) {
+        int i = mat.length-1;
+        int j = mat[0].length-1;
+        int sum = 0;
+
+    while(i >= 0) {
+        sum += mat[i][i];
+        i--;
+    }
+    i++;
+    while(i < mat.length) {
+        if(i != j) sum += mat[i][j];
+        i++;
+        j--;
+    }
+    return sum;
+    }
 }
