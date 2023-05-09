@@ -11,8 +11,24 @@ public class Sorting {
 
 //        cyclic(leetcode);
 
-        negatives = mergeSort(negatives);
-        System.out.println(Arrays.toString(negatives));
+//        leetcode = mergeSort(leetcode);
+        quickSort(duplicates, 0, duplicates.length - 1);
+        System.out.println(Arrays.toString(duplicates));
+    }
+
+    // Good for small data
+    public static void insertionSort(int[] arr) {
+        for (int i = 1; i < arr.length; i++) {
+            int key = arr[i];
+            int j = i - 1;
+
+            while (j >= 0 && arr[j] > key) {
+                arr[j + 1] = arr[j];
+                j--;
+            }
+
+            arr[j + 1] = key;
+        }
     }
 
     // if array is given 0 to N then always this sorting
@@ -28,6 +44,7 @@ public class Sorting {
         }
     }
 
+    // Good for LinkedList
     static int[] mergeSort(int[] arr) {
         if (arr.length == 1) {
             return arr;
@@ -41,9 +58,32 @@ public class Sorting {
         return merge(left, right);
     }
 
-//    static int[] quickSort(int[] arr) {
-//
-//    }
+    // Not stable but Fastest and Good for Big data
+    static void quickSort(int[] arr, int left, int right) {
+        if (left >= right) return;
+
+        int start = left;
+        int end = right;
+        int mid = start + (end - start) / 2;
+        int pivot = arr[mid];
+
+        while (start <= end) {
+            // if the array is alrady sorted
+            while (arr[start] < pivot) {
+                start++;
+            }
+            while (arr[end] > pivot) {
+                end--;
+            }
+            if (start <= end) {
+                swap(arr, start, end);
+                start++;
+                end--;
+            }
+        }
+        quickSort(arr, left, end);
+        quickSort(arr, start, right);
+    }
 
 
     // helper functions for the main sorting algo
@@ -53,15 +93,15 @@ public class Sorting {
 
         while (i < left.length && j < right.length) {
             result[k++] = (left[i] <= right[j]) ? left[i++] : right[j++];
-            }
+        }
 
         while (i < left.length) {
             result[k++] = left[i++];
-            }
+        }
 
         while (j < right.length) {
             result[k++] = right[j++];
-            }
+        }
 
         return result;
     }
