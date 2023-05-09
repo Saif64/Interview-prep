@@ -48,34 +48,22 @@ public class Sorting {
 
     // helper functions for the main sorting algo
     private static int[] merge(int[] left, int[] right) {
-        int leftPointer = 0;
-        int rightPointer = 0;
-        int newPointer = 0;
+        int[] result = new int[left.length + right.length];
+        int i = 0, j = 0, k = 0;
 
-        int[] newArray = new int[left.length + right.length];
-
-        while (leftPointer < left.length && rightPointer < right.length) {
-            if (left[leftPointer] < right[rightPointer]) {
-                newArray[newPointer] = left[leftPointer];
-                leftPointer++;
-            } else {
-                newArray[newPointer] = right[rightPointer];
-                rightPointer++;
+        while (i < left.length && j < right.length) {
+            result[k++] = (left[i] <= right[j]) ? left[i++] : right[j++];
             }
-            newPointer++;
-        }
 
-        while (leftPointer < left.length) {
-            newArray[newPointer] = left[leftPointer];
-            leftPointer++;
-            newPointer++;
-        }
-        while (rightPointer < right.length) {
-            newArray[newPointer] = right[rightPointer];
-            rightPointer++;
-            newPointer++;
-        }
-        return newArray;
+        while (i < left.length) {
+            result[k++] = left[i++];
+            }
+
+        while (j < right.length) {
+            result[k++] = right[j++];
+            }
+
+        return result;
     }
 
     private static void swap(int[] arr, int first, int second) {
