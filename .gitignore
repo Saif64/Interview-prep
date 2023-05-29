@@ -6,3 +6,4 @@ package-lock.json
 test.py
 *.class
 test.java
+.DS_Store
