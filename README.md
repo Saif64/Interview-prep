@@ -8,7 +8,7 @@ many places and pushed into a single repository so that everyone can get what th
 
 ---
 
-### Knock me on [LinkedIn](https://www.linkedin.com/in/muntasir-mahmud-saif-9a0900233/) if you hvae any query. :blush: <br> And if you like the repository give it a :star:
+### Knock me on [LinkedIn](https://www.linkedin.com/in/muntasir-mahmud-saif-9a0900233/) if you have any query. :blush: <br> And if you like the repository give it a :star:
 
 ---
 
