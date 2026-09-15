@@ -1,0 +1,37 @@
+name: Tests
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [18, 20, 22]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Run every solution's self-check
+        run: node tools/test.js
+
+      - name: Every JavaScript file parses
+        run: |
+          set -e
+          find . -name '*.js' -not -path './node_modules/*' -not -path './.git/*' \
+            -print0 | xargs -0 -n1 node --check
+
+      - name: Indexes are up to date
+        if: matrix.node == 20
+        run: |
+          node tools/build-index.js
+          git diff --exit-code -- SOLUTIONS.md neetcode-150/README.md \
+            || { echo "::error::Indexes are stale. Run 'node tools/build-index.js' and commit."; exit 1; }
