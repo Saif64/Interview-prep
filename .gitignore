@@ -1,9 +1,7 @@
-.vscode
-node_modules
-test.js
-package.json
-package-lock.json
-test.py
-*.class
-test.java
+.vscode/
+.idea/
+node_modules/
 .DS_Store
+*.class
+scratch/
+tmp/

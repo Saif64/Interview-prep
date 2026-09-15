@@ -1,5 +1,15 @@
 {
-  "dependencies": {
-    "prompt-sync": "^4.2.0"
+  "name": "interview-prep",
+  "version": "1.0.0",
+  "description": "Data structures, algorithms and the NeetCode 150 — every solution runnable and explained.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "node tools/test.js",
+    "index": "node tools/build-index.js",
+    "refresh-meta": "node tools/refresh-leetcode-meta.js"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
