@@ -5,3 +5,4 @@ node_modules/
 *.class
 scratch/
 tmp/
+neetcode-150/kotlin/build/

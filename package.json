@@ -1,11 +1,13 @@
 {
   "name": "interview-prep",
   "version": "1.0.0",
-  "description": "Data structures, algorithms and the NeetCode 150 — every solution runnable and explained.",
+  "description": "Interview preparation: the process, the rounds, the negotiation — and the NeetCode 150 in Kotlin and JavaScript.",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "node tools/test.js",
+    "test": "node tools/test.js && node tools/test-kotlin.js",
+    "test:js": "node tools/test.js",
+    "test:kotlin": "node tools/test-kotlin.js",
     "index": "node tools/build-index.js",
     "refresh-meta": "node tools/refresh-leetcode-meta.js"
   },
