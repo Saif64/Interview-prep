@@ -49,7 +49,7 @@ writes · normalisation vs denormalisation · the CAP theorem, stated honestly (
 behaviour during a partition, not a general "pick two").
 
 **Caching:** where to put it (client, CDN, application, database) · cache-aside vs
-write-through · eviction (you already implemented [LRU](../neetcode-150/06-linked-list/0146-lru-cache.js))
+write-through · eviction (you already implemented [LRU](../neetcode-150/kotlin/src/06-linked-list/0146-lru-cache.kt))
 · invalidation, which is genuinely hard · the thundering herd.
 
 **Asynchrony:** message queues · pub/sub · why you would move work out of the request path ·
