@@ -51,31 +51,21 @@ Each stage filters for something different, and most people only prepare for one
 
 ```mermaid
 graph LR
-    A[Resume<br/>screen] --> B[Recruiter<br/>call]
-    B --> C[Technical<br/>screen]
-    C --> D[On-site<br/>loop]
-    D --> E[Behavioural]
-    E --> F[Offer &<br/>negotiation]
+    A["<b>Resume screen</b><br/><br/>keywords · numbers<br/>a link that works"]
+    B["<b>Recruiter call</b><br/><br/>don't name<br/>a number first"]
+    C["<b>Technical screen</b><br/><br/>clarify, brute force,<br/>then optimise — out loud"]
+    D["<b>On-site loop</b><br/><br/>patterns · system design<br/>verify before they ask"]
+    E["<b>Behavioural</b><br/><br/>six STAR stories<br/>say I, not we"]
+    F["<b>Offer</b><br/><br/>counter once<br/>get it in writing"]
 
-    A -.- A1["keywords<br/>numbers<br/>artefacts"]
-    B -.- B1["don't name<br/>a number"]
-    C -.- C1["think<br/>out loud"]
-    D -.- D1["patterns<br/>system design"]
-    E -.- E1["six STAR<br/>stories"]
-    F -.- F1["counter once<br/>get it in writing"]
+    A --> B --> C --> D --> E --> F
 
-    style A fill:#ddf4ff,stroke:#54aeff
-    style B fill:#ddf4ff,stroke:#54aeff
-    style C fill:#fff8c5,stroke:#d4a72c
-    style D fill:#fff8c5,stroke:#d4a72c
-    style E fill:#dafbe1,stroke:#4ac26b
-    style F fill:#ffeff7,stroke:#ff80c8
-    style A1 fill:none,stroke:none
-    style B1 fill:none,stroke:none
-    style C1 fill:none,stroke:none
-    style D1 fill:none,stroke:none
-    style E1 fill:none,stroke:none
-    style F1 fill:none,stroke:none
+    style A fill:#ddf4ff,stroke:#54aeff,color:#0a3069
+    style B fill:#ddf4ff,stroke:#54aeff,color:#0a3069
+    style C fill:#fff8c5,stroke:#d4a72c,color:#4d2d00
+    style D fill:#fff8c5,stroke:#d4a72c,color:#4d2d00
+    style E fill:#dafbe1,stroke:#4ac26b,color:#003d16
+    style F fill:#ffeff7,stroke:#ff80c8,color:#5e103e
 ```
 
 ---
